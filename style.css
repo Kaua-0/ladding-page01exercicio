@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
 body{
   font-family: "Ubuntu", serif;
+  width: 100%;
+  height: 100%;
 }
 
 #content{
@@ -20,14 +22,16 @@ body{
 
 #bolsalogo{
  width: 2vw;
- height: 1.2vh;
- margin-top: 1vh;
+ height: 3vh;
+ margin-top: 3vh;
 }
 
 #frase1{
   color: white;
   display: flex;
   justify-content: center;
+  width: 100vh;
+  font-size: 30px;
 }
 
 #frase2{
@@ -35,17 +39,25 @@ body{
   display: flex;
   justify-content: center;
   padding-top: 1vh;
+  font-size: 20px;
 }
 
 #pesquisa{
   display: flex;
-  height: 3vh;
+  height: 6vh;
+  gap: 10px;
+}
+
+#barrapesquisa{
   border-radius: 5px;
+  border: none;
+  width: 25vw;
 }
 
 #textopeq{
   justify-content: center;
   align-items: center;
+  
 }
 
 #pdotextopeq{
@@ -99,10 +111,11 @@ body{
 #botao2{
    color: white;
    background-color: #2D815D;
-   width: 13vw;
-   height: 2.5vh;
+   width: 9vw;
+   height: 7vh;
    border-radius: 5px;
    border: none;
+   cursor: pointer;
 }
 
 #segbotao{
